@@ -1,0 +1,102 @@
+.ezy__portfolio10_dQu36UXv {
+	/* Bootstrap variables */
+	--bs-body-color: #373572;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-item-bg: #ffffff;
+	--ezy-item-shadow: 0px 4px 44px rgba(159, 190, 218, 0.37);
+
+	background-color: var(--bs-body-bg);
+	overflow: hidden;
+	padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+	.ezy__portfolio10_dQu36UXv {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__portfolio10_dQu36UXv,
+.ezy__portfolio10_dQu36UXv.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* Easy Frontend variables */
+	--ezy-item-bg: #f6f6f6;
+	--ezy-item-shadow: 0px 4px 44px rgba(186, 155, 155, 0.17);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__portfolio10_dQu36UXv,
+.ezy__portfolio10_dQu36UXv.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-item-bg: #222f3e;
+	--ezy-item-shadow: none;
+}
+
+/* Dark Block Style */
+.dark .ezy__portfolio10_dQu36UXv,
+.ezy__portfolio10_dQu36UXv.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-item-bg: #162231;
+	--ezy-item-shadow: none;
+}
+
+.ezy__portfolio10_dQu36UXv-heading {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__portfolio10_dQu36UXv-heading {
+		font-size: 45px;
+		line-height: 45px;
+	}
+}
+
+.ezy__portfolio10_dQu36UXv-sub-heading {
+	font-size: 18px;
+	line-height: 32px;
+	color: var(--bs-body-color);
+}
+
+.ezy__portfolio10_dQu36UXv-bg-holder {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	min-height: 200px;
+}
+
+.ezy__portfolio10_dQu36UXv-item {
+	box-shadow: var(--ezy-item-shadow);
+	background-color: var(--ezy-item-bg);
+	border-radius: 12px;
+	overflow: hidden;
+	border: none;
+}
+
+.ezy__portfolio10_dQu36UXv-item * {
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__portfolio10_dQu36UXv-item {
+		height: 100%;
+	}
+}
